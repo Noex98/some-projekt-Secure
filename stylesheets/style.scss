@@ -1,0 +1,6 @@
+@import 'partials/resets'; // Resets
+@import 'partials/variables'; // Variables
+
+//Primary stylesheets
+@import 'partials/laptop'; // Laptop: no media query
+@import 'partials/mobile'; // Mobile: min width: 768

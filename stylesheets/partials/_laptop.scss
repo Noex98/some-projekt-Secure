@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+my-header {
+    display:block;
+    text-align: center;
+    img {
+        padding:24px;
+    }
+}
+
+.main {
+    display:flex;
+    my-aside {
+        background:rgba(238, 238, 238, 0.527);
+        display:block;
+        max-width:15vw;
+        min-width: fit-content;
+        padding:24px 12px;
+        font-size:1.2rem;
+        nav {
+            position:sticky;
+            top:24px;
+            display:flex;
+            flex-direction: column;
+            a {
+                margin: 6px 0;
+                display:block;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__hero {
+        // Opslag side
+        .instagram-media{
+            max-width: 300px;
+        }
+        .hero__instaPost, .hero__fbPost, .hero__liPost{
+            padding:48px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content: space-around;
+        }
+        h2{
+            text-align: center;
+        }
+        // Kalender side
+        .hero__calender {
+            width:100%;
+            padding:24px;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+my-header {
+  display: block;
+  text-align: center;
+}
+
+my-header img {
+  padding: 24px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main my-aside {
+  background: rgba(238, 238, 238, 0.527);
+  display: block;
+  max-width: 15vw;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding: 24px 12px;
+  font-size: 1.2rem;
+}
+
+.main my-aside nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main my-aside nav a {
+  margin: 6px 0;
+  display: block;
+}
+
+.main my-aside nav a:hover {
+  text-decoration: underline;
+}
+
+.main__hero .instagram-media {
+  max-width: 300px;
+}
+
+.main__hero .hero__instaPost, .main__hero .hero__fbPost, .main__hero .hero__liPost {
+  padding: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__hero h2 {
+  text-align: center;
+}
+
+.main__hero .hero__calender {
+  width: 100%;
+  padding: 24px;
+}
+/*# sourceMappingURL=style.css.map */
